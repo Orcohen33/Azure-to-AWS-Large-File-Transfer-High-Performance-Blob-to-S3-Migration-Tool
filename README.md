@@ -8,7 +8,7 @@ This project provides a high-performance, serverless solution for transferring l
 
 - Parallel downloading from Azure Blob Storage
 - Parallel uploading to AWS S3 using multipart upload
-- Efficient handling of files up to 50GB and beyond
+- Efficient handling of files up to 150GB and beyond
 - MD5 hash validation for data integrity
 - Detailed progress logging
 - Robust error handling with retry logic
@@ -141,7 +141,7 @@ Key log messages include:
 
 ## Limitations
 
-- The function is designed to handle files up to 50GB, but actual limits may vary based on your Azure Function configuration and available resources.
+- The function is designed to handle files up to 150GB, but actual limits may vary based on your Azure Function configuration and available resources.
 - Transfer time is dependent on network conditions between Azure, your Function App, and AWS.
 
 ## Contributing
